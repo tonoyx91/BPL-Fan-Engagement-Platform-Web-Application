@@ -1,8 +1,9 @@
-# React + Vite
+#Frontend only
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I alongside with my dedicated teammates Major Nofaer vai, Sejuty Das and Shumin Nahar Esha have developed a web application "BPL Fan Engagement Platform" for our SDP(Software Development Project) course. Heartfelt appreciation for their unwavering hard work and dedication throughout the whole project.
+Technologies used: React JS, Node, Express
+Database: MongoDB
+As a sports lover, this project is so much special for me. 
 
-Currently, two official plugins are available:
+Special thanks to Solaiman Islam Naiem vai, Shohanur Rahman Shovo and Jumaina Nasir Kothika apu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

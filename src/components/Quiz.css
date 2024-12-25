@@ -1,0 +1,103 @@
+.App {
+    text-align: center;
+  }
+
+  body {
+    background-color: black;
+  }
+  
+  
+  /* Timer styles */
+  .timer {
+    background-color: red;
+    color: white;
+    padding: 4px;
+    border-radius: 8px;
+    border-style:double;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  /* Rest of your existing CSS... */
+  
+  
+  .question-card {
+    /* Center the div  */
+    margin: 0 auto;
+  
+    /* Dimensions  */
+    width: 60%; /* Can be in percentage also. */
+    height: auto;
+  
+    /* Visual  */
+    background-color: rgb(1, 61, 1);
+    padding: 16px;
+    border-radius: 16px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(248, 248, 242);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .interactive-li {
+    margin-top: 12px;
+    background-color: rgb(1, 44, 10);
+    padding: 12px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer; /* Change the cursor style to a hand pointer */
+    transition: background-color 0.3s; /* Add a smooth transition for background color changes */
+  }
+  
+  .interactive-li:hover {
+    background-color: #3c9708; /* Change the background color on hover */
+  }
+  
+  
+  
+  .question-text {
+    color: rgb(231, 255, 11);
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Final Results  */
+  
+  .final-results {
+    /* Center the div  */
+    margin: 0 auto;
+  
+    /* Dimensions  */
+    width: 60%; /* Can be in percentage also. */
+    height: 40vh;
+    margin-top: 80px;
+  
+    /* Visual  */
+    background-color: rgb(23, 99, 0);
+    padding: 16px;
+    border-radius: 16px;
+    color: rgb(241, 233, 233);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+      rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  }
+  
+  button {
+    background-color: rgb(0, 217, 255); /* Green */
+    border: none;
+    color: rgb(9, 74, 37);
+    padding: 16px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+  
+    border-radius: 24px;
+  }

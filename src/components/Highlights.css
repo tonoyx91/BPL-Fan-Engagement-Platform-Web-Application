@@ -1,0 +1,123 @@
+/* Highlights.css */
+
+.highlight-page {
+  background: #000000;
+  padding: 90px;
+  text-align: center;
+}
+
+.highlight-heading {
+  color: #86ff04;
+  font-family: rowdies;
+  font-size: 2rem;
+  margin-bottom: 20px;
+  margin-top: -70px;
+}
+
+.video-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-wrapper {
+  margin: 35px;
+  width: 550px;
+}
+
+.video-title {
+  color: #e7fbad;
+  font-size: 1.4rem;
+  font-family: Tw Cen MT Condensed, monospace;
+  margin-bottom: 10px;
+}
+
+.video {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.play-button {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.play-button:hover {
+  background-color: #45a049;
+}
+
+.seek-bar,
+.volume-bar {
+  width: 80%;
+  margin-bottom: 10px;
+}
+
+.seek-bar {
+  -webkit-appearance: none; /* Safari and Chrome */
+  -moz-appearance: none; /* Firefox */
+  appearance: none; /* Standard */
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+}
+
+.seek-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.volume-bar {
+  -webkit-appearance: none; /* Safari and Chrome */
+  -moz-appearance: none; /* Firefox */
+  appearance: none; /* Standard */
+  height: 5px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+}
+
+.volume-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #4caf50;
+  cursor: pointer;
+}
+
+.upload-video-section {
+  margin-top: 30px;
+}
+
+.upload-video-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.upload-video-button:hover {
+  background-color: #45a049;
+}
